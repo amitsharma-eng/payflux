@@ -1,0 +1,31 @@
+name: payflux
+description: >
+  A modern, unified Flutter package for integrating multiple payment gateways
+  (Stripe, Razorpay, PayPal, and more) behind one consistent, pluggable API.
+version: 0.1.0
+homepage: https://github.com/amitsharma-eng/payflux
+repository: https://github.com/amitsharma-eng/payflux
+topics:
+  - payments
+  - stripe
+  - razorpay
+  - paypal
+  - checkout
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.13.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_stripe: ^14.0.0
+  razorpay_flutter: ^1.4.6
+  flutter_paypal_payment: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
